@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="stunum" translatable="false">45612378</string>
+    <string name="stuname">Tomcat</string>
+    <string name="label_login">Login</string>
+    <string name="label_exit">Exit</string>
+    <string name="label_hello">hello</string>
+    <string name="label_android">Hello android</string>
+    <string name="label_btn">button</string>
+    <string name="input_tip">Input your name</string>
+    <string name="input_w_tip">Your weight(KG)</string>
+    <string name="input_h_tip">Your height(M)</string>
+    <string name="lable_bmi">BMI</string>
+
+    <string name="team1_label">TeamA</string>
+    <string name="btn3_label">+3 points</string>
+    <string name="btn2_label">+2 points</string>
+    <string name="btn1_label">+1 point</string>
+    <string name="btn3s_label">+3</string>
+    <string name="btn2s_label">+2</string>
+    <string name="btn1s_label">+1</string>
+    <string name="reset_label">reset</string>
+    <string name="input_hint">Input RMB</string>
+    <string name="btn_dollar_label">dollar</string>
+    <string name="btn_euro_label">euro</string>
+    <string name="btn_won_label">won</string>
+    <string name="team2_label">TeamB</string>
+    <string name="btn_config_label">config</string>
+    <string name="input_rate">Input rate</string>
+    <string name="btn_save_label">save</string>
+
+
+</resources>
