@@ -1,9 +1,12 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,13 +30,15 @@ public class MainListActivity extends AppCompatActivity {
             return insets;
         });
 
-        ListView mylist = findViewById(R.id.mylistview);
+        GridView mylist = findViewById(R.id.mylistview);
         List<String> list1 = new ArrayList<String>();
         for(int i=10;i<100;i++){
-            list1.add("item" + i);
+            //list1.add("item" + i);
         }
         ListAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,list1);
         mylist.setAdapter(adapter);
+        // TextView nodata = findViewById(R.id.nodata);
+        mylist.setEmptyView(findViewById(R.id.nodata));
     }
 
 }
