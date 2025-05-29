@@ -63,11 +63,19 @@ public class CustomListActivity extends AppCompatActivity implements AdapterView
                     mylist.setAdapter(adapter);
                     //隐藏进度条
                     progressBar.setVisibility(View.GONE);
+                    //将所有的数据写入数据库
+
                 }
 
                 super.handleMessage(msg);
             }
         };
+
+        //向数据库中写入数据
+        RateManager manager = new RateManager(this);
+        RateItem item = new RateItem("欧元2",34.567f);
+        manager.add(item);
+        Log.i(TAG, "onCreate: 写入数据库结束");
 
 
 

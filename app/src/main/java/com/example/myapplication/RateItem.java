@@ -1,10 +1,19 @@
 package com.example.myapplication;
 
 public class RateItem {
+    private int id;
     private String cname;
     private float cval;
 
     public RateItem() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public RateItem(String cname, float cval) {
